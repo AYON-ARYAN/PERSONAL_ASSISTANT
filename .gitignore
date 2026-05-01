@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Models (downloaded by user, see README)
+*.onnx
+*.bin
+*.pt
+*.pth
+*.gguf
+whisper/whisper.cpp/models/ggml-*.bin
+whisper/whisper.cpp/build/
+
+# Recorded audio
+audio/
+*.wav
+*.mp3
+*.flac
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Env (just in case)
+.env
+.env.local
